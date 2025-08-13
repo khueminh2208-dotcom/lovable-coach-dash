@@ -61,6 +61,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))',
+					light: 'hsl(var(--warning-light))'
+				},
+				'destructive-light': 'hsl(var(--destructive-light))',
+				/* Risk score colors */
+				risk: {
+					very-high: '0 72% 70%',
+					high: '25 95% 53%', 
+					medium: '48 96% 65%',
+					low: '132 30% 62.7%'
 				}
 			},
 			borderRadius: {
